@@ -1,4 +1,5 @@
-//transparency - had some assistance from classmate Colin
+// transparency - had assistance from classmate Colin on scope, getting rid of extraneous code,
+// and making the 'Heads'/'Tails' strings appear with spaces between them on the page
 
 let coin = {
     state: 0,
