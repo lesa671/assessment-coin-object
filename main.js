@@ -4,7 +4,7 @@
 let coin = {
     state: 0,
     flip: function () {
-        return this.state = Math.floor(Math.random() * 2)
+        this.state = Math.floor(Math.random() * 2)
     },
     toString: function () {
         if (this.state === 0) {
